@@ -26,3 +26,15 @@
 * source /opt/ros/melodic/setup.bash
 
 * Let's create and build a catkin workspace: 
+* mkdir -p ~/catkin_ws/src
+* cd ~/catkin_ws/
+* catkin_make
+* ls --> build  devel  src
+* echo $ROS_PACKAGE_PATH --> /home/youruser/catkin_ws/src:/opt/ros/kinetic/share
+* echo $ROS_PACKAGE_PATH --> /opt/ros/melodic/share 
+## ERROR????
+
+## Navigating the ROS Filesystem
+
+
+
