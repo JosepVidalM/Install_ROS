@@ -35,6 +35,21 @@
 ## ERROR????
 
 ## Navigating the ROS Filesystem
+*sudo apt-get install ros-melodic-ros-tutorials
+* rospack find roscpp
+* /opt/ros/melodic/share/roscpp
+* pwd
+* /opt/ros/melodic/share/roscpp
+* echo $ROS_PACKAGE_PATH
+* /opt/ros/melodic/share
+
+
+
+
+
+
+
+
 
 
 
