@@ -57,32 +57,32 @@
 * rosout: ROS equivalent of stdout/stderr
 * roscore: Master + rosout + parameter server (parameter server will be introduced later) 
 
-roscore
-... logging to /home/josep/.ros/log/5e594bd6-e119-11e8-be31-0026bb12c270/roslaunch-josep-MacBookPro-9313.log
-Checking log directory for disk usage. This may take awhile.
-Press Ctrl-C to interrupt
-Done checking log file disk usage. Usage is <1GB.
+* roscore
+* ... logging to /home/josep/.ros/log/5e594bd6-e119-11e8-be31-0026bb12c270/roslaunch-josep-MacBookPro-9313.log
+* Checking log directory for disk usage. This may take awhile.
+* Press Ctrl-C to interrupt
+* Done checking log file disk usage. Usage is <1GB.
 
-started roslaunch server http://josep-MacBookPro:44995/
-ros_comm version 1.14.3
+* started roslaunch server http://josep-MacBookPro:44995/
+* ros_comm version 1.14.3
 
 
-SUMMARY
-========
+* SUMMARY
+* ========
 
-PARAMETERS
- * /rosdistro: melodic
- * /rosversion: 1.14.3
+* PARAMETERS
+* * /rosdistro: melodic
+* * /rosversion: 1.14.3
 
-NODES
+*NODES
 
-auto-starting new master
-process[master]: started with pid [9323]
-ROS_MASTER_URI=http://josep-MacBookPro:11311/
+* auto-starting new master
+* process[master]: started with pid [9323]
+* ROS_MASTER_URI=http://josep-MacBookPro:11311/
 
-setting /run_id to 5e594bd6-e119-11e8-be31-0026bb12c270
-process[rosout-1]: started with pid [9334]
-started core service [/rosout]
+* setting /run_id to 5e594bd6-e119-11e8-be31-0026bb12c270
+* process[rosout-1]: started with pid [9334]
+* started core service [/rosout]
 
 
 
