@@ -43,6 +43,20 @@
 * echo $ROS_PACKAGE_PATH
 * /opt/ros/melodic/share
 
+## Creating a ROS Package
+* cd ~/catkin_ws
+* catkin_make
+* . ~/catkin_ws/devel/setup.bash
+
+## Understanding ROS Nodes
+* sudo apt-get install ros-melodic-ros-tutorials
+* Nodes: A node is an executable that uses ROS to communicate with other nodes.
+* Messages: ROS data type used when subscribing or publishing to a topic.
+* Topics: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
+* Master: Name service for ROS (i.e. helps nodes find each other)
+* rosout: ROS equivalent of stdout/stderr
+* roscore: Master + rosout + parameter server (parameter server will be introduced later) 
+
 
 
 
