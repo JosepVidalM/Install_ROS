@@ -85,6 +85,13 @@
 * started core service [/rosout]
 
 
+* rosnode list
+* rosnode info /rosout
+* rosrun turtlesim turtlesim_node (tortugueta)
+
+* roscore = ros+core : master (provides name service for ROS) + rosout (stdout/stderr) + parameter server (parameter server will be introduced later)
+* rosnode = ros+node : ROS tool to get information about a node.
+* rosrun = ros+run : runs a node from a given package. 
 
 
 
